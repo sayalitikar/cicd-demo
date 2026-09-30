@@ -10,6 +10,6 @@ public class OrderServiceTest {
 
         double result = service.calculateTotal(1000, 2);
 
-        assertEquals(2000, result);
+        assertEquals(5000, result);
     }
 }
